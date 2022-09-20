@@ -1,22 +1,16 @@
-"punctul1"
+"p1"
 def suma(a,b):
     s=a+b
     return print("Suma numerelor ",a," si ",b," = ",s)
-
-
-"punctul2"
+"p2"
 def produsul(a,b):
     p=a*b
     return print(" Produsul numerelor ",a," si ",b," = ",p)
-
-
-"punctul3"
+"p3"
 def media(a,b):
     m=(a+b)/2
     return print(" Media aritmetica a numerelor ",a," si ",b," = ",m)
-
-
-"punctul4"
+"p4"
 def celmaimaredivizor(a,b):
     t=[]
     u=[]
@@ -29,8 +23,7 @@ def celmaimaredivizor(a,b):
     c=set(t).intersection(u)
     g=max(c)
     return print(" Cel mai mare divizor comun al numerelor ",a," si ",b," = ",g)
-
-"punctul5"
+"p5"
 def celmaimicmultipluc(a,b):
     if a>b:
         mlt=a
@@ -44,41 +37,31 @@ def celmaimicmultipluc(a,b):
             break
         mlt +=1
     return print("Cel mai mic multiplu comun al numerelor ",a," si ",b," = ",cm)
-
-
-"punctul6"
+"p6"
 def nrmin(a,b):
     if a<b:
         return print(" Numarul minim =",a)
     else:
         return print(" Numarul minim =",b)
-
-
-"punctul7"
+"p7"
 def nrmax(a,b):
     if a>b:
         return print("Numarul maxim = ",a)
     else:
         return print("Numarul maxim =",b)
-
-
-"punctul8"
+"p8"
 def suma2():
     a= int(input('Dati primul numar: '))
     b= int(input('Dati al doilea numar: '))
     c=a+b
     return print("suma= ",a," + ",b," = ",c)
-
-
-"punctul9"
+"p9"
 def produs2():
     a= int(input('Dati un nr='))
     b= int(input('Dati al doilea nr='))
     c=a*b
     return print(" produs= ",a," x ",b," = ",c)
-    
-
-"punctul10"
+"p10"
 def div(a,b):
     m=[]
     l=[]
@@ -91,8 +74,7 @@ def div(a,b):
     c=set(m).intersection(l)
     br=list(c)
     return print("divizorii comuni ai numerelor ",a," si ",b," = ",br)
-
-"punctul11"
+"p11"
 def cincimlt(a,b):
     c=[]
     if a>b:
@@ -108,9 +90,7 @@ def cincimlt(a,b):
         else:
             mlt+=1
     return print("5 multipli comuni ale numerelor ",a," si ",b," sunt=",c)
-
-
-"punctul12"
+"p12"
 def divizorcom(a,b):
     g=[]
     t=[]
@@ -124,9 +104,7 @@ def divizorcom(a,b):
         return print("Cifrele comune  din numerele ",a," si ",b," sunt= ",r)
     else:
         return print(" nu au cifre comune")
-
-
-"punctul13"
+"p13"
 def cifrediferite(a,b):
     h=[]
     s=[]
@@ -137,8 +115,7 @@ def cifrediferite(a,b):
     c=set(h).difference(s)
     x=list(c)
     return print("cifrele care se contin in numarul ",a," si nu se contin in numarul ",b," = ",x)
-
-"punctul14"
+"p14"
 def acelasindiv(a,b):
     z1=[]
     z2=[]
